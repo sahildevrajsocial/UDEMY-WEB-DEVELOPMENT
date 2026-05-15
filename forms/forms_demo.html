@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms Demo</title>
+</head>
+<body>
+<h1>Forms Demo</h1>
+<!-- Outside of a form, no default behavior -->
+<button>OUTSIDE FORM</button>
+<form action="/" method="post">
+    <p>
+    <label for="username">Enter a username:-</label>
+    <input type="text" placeholder="username" id="username" name="username">
+    </p>
+    <p>
+    <label for="password">Enter a password</label>
+    <input type="password" placeholder="password" id ="password">
+    </p>
+    <!-- This button does not submit the form because of using button type as a button -->
+    <button type="button">IN THE MIDDLE</button>
+    <p>
+    <label for="color">Choose a color:-</label>
+    <input type="color" id="color">
+    </p>
+    <p>
+    <label for="number">Enter a number:-</label>
+    <input type="number" placeholder="number" id="number">
+    </p>
+    <button>Submit</button>
+</form>
+<form action="https;//www.reddit.com/search">
+    <input type="text" name="q">
+    <button>Search Reddit</button>
+
+    <h2>More Inputs!</h2>
+    <form action="/birds">
+        <label for="agree">I agree to the Terms of Service</label>
+        <input type="checkbox" name="agree" id="agree" checked>
+        <p>
+            <label for="xs">XS</label>
+            <input type="radio" name="size" id="xs">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s">
+            <label for="l">L</label>
+            <input type="radio" name="size" id="l">
+        </p>
+        <p>
+            <label for="meal">Please select from the options</label>
+            <select name = "meal" id="meal">
+                <option value="bread">Bread</option>
+                <option value="carrot">Carrot</option>
+                <option value="pizza">Pizza</option>
+                <option value="hamburgers">Hamburgers</option>
+            </select>
+        </p>
+        <p>
+        <label for="range">Please choose the amount of cheese</label>
+        <input type="range" id="range" min="1" max="10" value="7">
+        </p>
+        <p>
+            <label for="requests">Any requests?</label>
+            <textarea id="requests"></textarea>
+        </p>
+    </form>
+</form>
+<h2>Validation Demo</h2>
+<form action="/dummy">
+    <label for="first">Enter your first name:-</label>
+    <input type="text" name="firstname" id="first">
+    <label for="user">Enter your username:-</label>
+    <input type="text" name="username" id="user" minlength="5">
+    <button>Submit</button>
+</form>
+</body>
+</html>
