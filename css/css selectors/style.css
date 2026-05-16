@@ -1,0 +1,93 @@
+body {
+    background-color: #f4f1de;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    text-decoration: blue overline;
+    letter-spacing: 15px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-decoration: peachpuff line-through;
+}
+
+h3 {
+    text-decoration: plum underline;
+}
+
+p {
+    font-weight: bold;
+    line-height: 2.5;
+}
+
+#nodec {
+    text-decoration: none;
+}
+
+button {
+    background-color: #cdb4db;
+    color: #bde0fe;
+    font-size: 40px;
+}
+
+/* an id selector */
+#vote3 {
+    background-color: #03045e;
+    color: #00b4d8;
+    font-size: 40px;
+}
+
+/* a class selector */
+.tags {
+    background-color: #007ea7;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* a descendant selector */
+li a {
+    color: #e07a5f;
+}
+
+/* an adjacent selector */
+p+button {
+    font-size: 15px;
+    background-color: palevioletred;
+}
+
+/* a direct child selector */
+footer>a {
+    background-color: #cdb4db;
+}
+
+/* an attribute selector */
+input[type="password"] {
+    color: aquamarine;
+}
+
+/* pseudo classes */
+button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+    font-size: 40px;
+
+}
+
+button:active {
+    background-color: orange;
+}
+
+li a:hover {
+    background-color: #e63946;
+    color: #f1faee
+}
+
+/* a pseudo element */
+p::first-line {
+    text-transform: uppercase;
+    color: #00b4d8;
+}
