@@ -4,13 +4,13 @@ div {
     background-color: brown;
 }
 
-/* border radius */
 #one {
     background-color: #ffcad4;
     border-width: 5px;
     border-color: #8ecae6;
     border-style: solid;
     box-sizing: border-box;
+    margin-left: 50px;
 }
 
 #two {
@@ -20,6 +20,7 @@ div {
     border-style: dashed;
     box-sizing: border-box;
     border-left-width: 10px;
+    margin-bottom: 50px;
 }
 
 #three {
@@ -29,4 +30,22 @@ div {
     border-left-style: dotted;
     border-left-width: 10px;
     border-radius: 10%;
+    margin: 50px;
+}
+
+/* paddings */
+#button1 {
+    padding: 20px;
+}
+
+#button2 {
+    padding: 10px 20px;
+}
+
+#button3 {
+    padding: 1px 2px 2px;
+}
+
+#button4 {
+    padding: 10px 20px 30px 40px;
 }
