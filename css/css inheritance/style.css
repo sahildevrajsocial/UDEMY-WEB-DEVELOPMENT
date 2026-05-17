@@ -1,0 +1,20 @@
+/* inherited from body */
+body {
+    color: peachpuff;
+}
+
+/* inherted from section */
+section {
+    color: aqua;
+}
+
+/* inherited from form */
+form {
+    color: greenyellow;
+}
+
+/* inherited from button */
+button,
+input {
+    color: inherit;
+}
