@@ -1,0 +1,24 @@
+h1 {
+    background-color: palegoldenrod;
+    border: 1px solid black;
+}
+
+/* block to inline using display */
+#convertIN {
+    display: inline;
+}
+
+span {
+    background-color: paleturquoise;
+    border: 1px solid black;
+}
+
+/* inline to block using display */
+#convertBLO {
+    display: block;
+}
+
+#stupid {
+    background-color: palevioletred;
+    border: 1px solid black;
+}
