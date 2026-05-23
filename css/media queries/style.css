@@ -24,6 +24,7 @@ li {
     }
 }
 
+/* media queries */
 @media (orientation: landscape) {
     body {
         background-color: palevioletred;
