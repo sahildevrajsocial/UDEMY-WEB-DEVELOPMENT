@@ -11,3 +11,10 @@ function greet(firstName) {
 }
 
 greet('David');
+
+function greetings(firstName, lastName) {
+    console.log(`Hey! ${firstName} ${lastName}`);
+}
+
+greetings('David', 'Gilmour');
+
